@@ -11,10 +11,11 @@
   src: url("./font/static/Comfortaa-Medium.ttf");
 }
 .banimg{
-	width:3208px ;
+	width: 3208px;
 	height: 750px;
-	object-fit: cover;
-	object-position: 0% 84.5%; 
+	background-position: 0 85%;
+	background-size: 3208px;
+	background-image: url("./img/rodeo-drive.jpg");
 }
 .bantext{
 	font-style: normal;
@@ -52,6 +53,7 @@
 	color: white;
 }
 .cd_img{
+	margin-bottom: 0px;
 	width:616px;
 	height: 410px;
 	border-radius:5px;
@@ -78,6 +80,7 @@
 }
 
 .section3{
+	margin-top: 0px;
 	width: 3208px;
 	height: 1330px;
 	padding-left: 480px;
