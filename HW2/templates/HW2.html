@@ -1,0 +1,19 @@
+<!doctype html>
+<title>HW home page</title>
+<link rel = "stylesheet" href="\static\HW2.css">
+<div class="Title">
+	Blood Pressure Predictor
+</div>
+<div class="Info">
+	Fill out the form to get your Blood Pressure estimate!
+</div>
+<script src="\static\HW2.js"></script>
+<form class="Form" onsubmit="return calculate()">
+	<label for = "Age">Age</label> <span style="color: #ff3f49 ;font-family: Garamond    ;"required> *</span>
+	<input type="number" placeholder="Enter age in years" style="height: 25px; font-size:15px" id=age required >
+	<br><label for = "Weight">Weight</label> <span style="color: #ff3f49;font-family: Garamond;"> *</span>
+	<input type="number" placeholder="Enter weight in kg" style="height: 25px; font-size:15px" id=weight required>
+	<br><input type="submit"  class="button" value="Calculate">
+</form>
+<div class="result" id ="result"> 
+</div>
